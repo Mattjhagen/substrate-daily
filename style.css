@@ -100,7 +100,7 @@ body {
 
 .hero {
   max-width: 720px;
-  margin: 0 auto 2.6rem;
+  margin: 0 auto 2.4rem;
 }
 
 .hero h2 {
@@ -185,6 +185,27 @@ body {
   padding-left: 1rem;
   font-size: 0.95rem;
   color: var(--fg-muted);
+}
+
+.stories {
+  max-width: 720px;
+  margin: 0 auto 2.4rem;
+}
+
+.story + .story {
+  margin-top: 1.3rem;
+}
+
+.story h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+}
+
+.story p {
+  margin: 0;
+  line-height: 1.8;
+  color: var(--fg-muted);
+  font-size: 0.95rem;
 }
 
 .about-card {
